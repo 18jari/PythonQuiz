@@ -1,4 +1,3 @@
-<html>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -210,7 +209,7 @@
 
         <!-- VRAGEN SCHERM -->
         <div id="quiz-screen" style="display: block;">
-            <div class="progress" id="progress-text">Vraag 1 van 5</div>
+            <div class="progress" id="progress-text">Vraag 1 van 10</div>
             <div class="question-text" id="question-text"></div>
             <div class="options" id="options-container"></div>
 
@@ -300,6 +299,56 @@
                     "List"
                 ],
                 correct: 3
+            },
+            {
+                question: "Hoe maak je een **lege Set** aan in Python?",
+                options: [
+                    "s = {}",
+                    "s = set()",
+                    "s = []",
+                    "s = ()"
+                ],
+                correct: 1
+            },
+            {
+                question: "Wat is het type van de variabele <code>t</code> na de volgende toewijzing?<br><pre>t = (\"appel\")</pre>",
+                options: [
+                    "tuple",
+                    "str (string)",
+                    "list",
+                    "set"
+                ],
+                correct: 1
+            },
+            {
+                question: "Welke methode of operator gebruik je om twee sets te verenigen (alle unieke elementen van beide sets samenvoegen)?",
+                options: [
+                    "set1 + set2",
+                    "set1.append(set2)",
+                    "set1.union(set2) of set1 | set2",
+                    "set1.extend(set2)"
+                ],
+                correct: 2
+            },
+            {
+                question: "Wat gebeurt er als je hetzelfde element meerdere keren toevoegt aan een **Set**?",
+                options: [
+                    "Er ontstaat een TypeError.",
+                    "Het element wordt meerdere keren opgeslagen.",
+                    "Duplicaten worden automatisch genegeerd.",
+                    "De set verandert automatisch in een list."
+                ],
+                correct: 2
+            },
+            {
+                question: "Wat is het resultaat van de expressie <code>len(t3)</code> in onderstaande code?<br><pre>t3 = (\"appel\", 3, 1.4, (\"banaan\", 5))</pre>",
+                options: [
+                    "5",
+                    "4",
+                    "3",
+                    "6"
+                ],
+                correct: 1
             }
         ];
 
